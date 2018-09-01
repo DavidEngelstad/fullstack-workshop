@@ -12,7 +12,7 @@ module.exports = {
       {
         loader: 'babel-loader',
         test: /\.js[x]?/,
-        exclude: /node_modules/,
+        exclude: /(node_modules|dep)/,
         options: {
           presets: ['react', 'env']
         }

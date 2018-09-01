@@ -4,19 +4,18 @@
 Build out the file structure for your fullstack app and install of the the dependencies that you think you will need.
 
 #Exercise-2 <br />
-After you have built out the stucture of your app, build out your server file.
+After you have built out the stucture of your app, build out your server file. Build out the the routes and controllers for GET, POST, and DELETE requests. Use Postman to make sure your routes are working.
 
 #Exercise-3 <br />
-Build out the the routes and controllers for GET, POST, and DELETE requests. Use Postman to make sure your routes are working.
-
-#Exercise-4 <br />
 Render an functional App component to the DOM.
 
-#Exercise-5 <br />
+#Exercise-4 <br />
 Build out a class component called List. Inside build out the logic for your todo list.
 
-#Exercise-6 <br />
+#Exercise-5 <br />
 Build out a ListEntry component and to render the elements stored in your list component to the page. Create functionality that will allow you to modify and remove todo elements from your list.
+
+#Exercise-6 <br />
 
 #Exercise-7 <br />
 Verify that you are sending data from your front end all the way to your controller on the back end. Also verify that the data is arriving at your controller in the way that you expect.
