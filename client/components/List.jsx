@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import ListEntry from './ListEntry.jsx';
 
 class List extends Component {
   constructor(props) {
@@ -60,6 +61,17 @@ class List extends Component {
         <form onSubmit={e => this.handleSubmit(e)}>
           Add Todo: <input onKeyUp={this.handleInput} />
         </form>
+        <br />
+        <div>
+          {this.state.todos.map((todo, index) => (
+            <ListEntry
+              key={index}
+              todo={todo}
+              index={index}
+              delete={this.deleteTodo}
+            />
+          ))}
+        </div>
       </div>
     );
   }

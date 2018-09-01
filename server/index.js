@@ -1,10 +1,14 @@
 const express = require('express');
 const parser = require('body-parser');
+const morgan = require('morgan');
 const path = require('path');
 const routes = require('./routes.js');
+const db = require('../database/mongo');
 const PORT = 3000;
 
 const app = express();
+
+app.use(morgan('combined'));
 
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: true }));

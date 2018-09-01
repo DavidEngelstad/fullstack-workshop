@@ -7,15 +7,16 @@ Build out the file structure for your fullstack app and install of the the depen
 After you have built out the stucture of your app, build out your server file. Build out the the routes and controllers for GET, POST, and DELETE requests. Use Postman to make sure your routes are working.
 
 #Exercise-3 <br />
-Render an functional App component to the DOM.
+In your database folder, create a folder called mongoose and establish a connection to your mongo database using mongoose. Export the connection to the your models.js folder and create the schema that you will want to use to store your todolist data.
 
 #Exercise-4 <br />
-Build out a class component called List. Inside build out the logic for your todo list.
+Build out a class component called List. Build out the logic that will allow you to type a todo into an input field and send a request to your server to save that todo into your database.
 
 #Exercise-5 <br />
-Build out a ListEntry component and to render the elements stored in your list component to the page. Create functionality that will allow you to modify and remove todo elements from your list.
+Build out a function that will make a request to your controller and retrieve all of the todos saved in your database and store them in an array in state.
 
 #Exercise-6 <br />
+Build out a ListEntry component and to render the elements stored in your list component to the page. Create functionality that will allow you to modify and remove todo elements from your list.
 
 #Exercise-7 <br />
 Verify that you are sending data from your front end all the way to your controller on the back end. Also verify that the data is arriving at your controller in the way that you expect.
