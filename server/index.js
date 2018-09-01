@@ -3,7 +3,8 @@ const parser = require('body-parser');
 const morgan = require('morgan');
 const path = require('path');
 const routes = require('./routes.js');
-const db = require('../database/mongo');
+// const db = require('../database/mongo');
+const db = require('../database/sql');
 const PORT = 3000;
 
 const app = express();
