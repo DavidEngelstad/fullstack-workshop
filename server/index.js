@@ -9,7 +9,7 @@ const PORT = 3000;
 
 const app = express();
 
-app.use(morgan('combined'));
+app.use(morgan('dev'));
 
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: true }));

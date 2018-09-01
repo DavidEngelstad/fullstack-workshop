@@ -18,6 +18,10 @@ const Todo = connection.define(
     name: {
       type: Sequelize.STRING(50),
       allowNull: false
+    },
+    list_name: {
+      type: Sequelize.STRING(50),
+      allowNull: false
     }
   },
   { timestamps: false }

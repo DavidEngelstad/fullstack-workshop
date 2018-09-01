@@ -68,7 +68,7 @@ module.exports = {
   },
   post: (req, res) => {
     console.log('In POST');
-    const { todo, listName } = req.query;
+    const { todo, listName } = req.body;
     Todo.create({
       name: todo,
       list_name: listName
