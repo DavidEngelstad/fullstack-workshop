@@ -10,7 +10,7 @@ After you have built out the stucture of your app, build out your server file.
 Build out the the routes and controllers for GET, POST, and DELETE requests. Use Postman to make sure your routes are working.
 
 #Exercise-4 <br />
-Render an functional App component to the DOM.
+Render a functional App component to the DOM.
 
 #Exercise-5 <br />
 Build out a class component called List. Inside build out the logic for your todo list.
