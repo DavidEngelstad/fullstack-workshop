@@ -1,8 +1,12 @@
 import React from 'react';
-// import List from './List.jsx';
+import List from './List.jsx';
 
 const App = props => {
-  return <div>Hello from Component</div>;
+  return (
+    <div>
+      <List />
+    </div>
+  );
 };
 
 export default App;
