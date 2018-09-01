@@ -45,6 +45,7 @@ const { List, Todo } = require('../database/sql/models.js');
 //       });
 //   }
 // };
+
 //SEQUELIZE CONTROLLER -------------------------------------
 
 module.exports = {
